@@ -35,7 +35,7 @@ const StranglerFig = () => {
                 A rewrite strategy involves completely replacing the legacy system with the new system all at once. This
                 approach can be attractive because it allows the organization to start fresh with a modern,
                 fully-featured system. However, it can also be risky because it requires a significant investment of
-                time and resources, and there is a risk of disruptions to the organization's existing operations during
+                time and resources, and there is a risk of disruptions to the organization&apos;s existing operations during
                 the migration process.
               </p>
               <p>
@@ -66,7 +66,7 @@ const StranglerFig = () => {
                     Risky, as it requires a significant investment of time and resources
                   </li>
                   <li>
-                    Risk of disruptions to the organization's existing operations during the migration process
+                    Risk of disruptions to the organization&apos;s existing operations during the migration process
                   </li>
                 </ul>
               </div>
@@ -87,7 +87,7 @@ const StranglerFig = () => {
             <div className="mt-12 prose prose-slate">
               <h2>Strangler Fig pattern</h2>
               <p>
-                First, let's define the Strangler Fig pattern. This is a software design pattern that involves gradually
+                First, let&apos;s define the Strangler Fig pattern. This is a software design pattern that involves gradually
                 replacing a legacy system with a new system by wrapping the new functionality around the old system.
                 This allows organizations to migrate to a new system without disrupting their existing operations or
                 incurring the high costs of a complete system overhaul.
@@ -101,7 +101,7 @@ const StranglerFig = () => {
                 time.
               </p>
               <p>
-                Now, let's talk about microfrontends and how they can be used with the Strangler Fig pattern.
+                Now, let&apos;s talk about microfrontends and how they can be used with the Strangler Fig pattern.
                 Microfrontends is a software architecture pattern that involves breaking a monolithic frontend
                 application into smaller, independent units that can be developed, deployed, and maintained
                 independently. This allows organizations to adopt a more modular approach to frontend development, which

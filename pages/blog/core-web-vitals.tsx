@@ -21,7 +21,7 @@ const CoreWebVitals = () => {
             <p className="mt-4 sm:mt-6">
               As the digital landscape continues to evolve, the importance of website performance, speed, and user
               experience has become increasingly clear. In response to this need, Google has introduced a new set of
-              metrics known as Core Web Vitals, which aim to measure the key aspects of a website's user experience.
+              metrics known as Core Web Vitals, which aim to measure the key aspects of a website&apos;s user experience.
             </p>
             <div className="mt-12 prose prose-slate">
               <Image

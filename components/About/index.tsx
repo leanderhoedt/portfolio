@@ -48,9 +48,9 @@ const About = () => {
                 <span className="text-cyan-400">Leander</span><span>)</span>
               </h1>
               <p className="mt-8 pb-4 text-base font-medium text-gray-50 sm:text-xl lg:text-lg xl:text-xl">
-                "As a full stack developer with a focus on frontend development, I bring a unique blend of technical
+                &quot;As a full stack developer with a focus on frontend development, I bring a unique blend of technical
                 skills and creative flair to every project. I am always striving to create engaging and user-friendly
-                applications, and I am eager to work on big projects where I can be a valuable partner."
+                applications, and I am eager to work on big projects where I can be a valuable partner.&quot;
               </p>
               <p className="pb-4 text-base text-gray-50 sm:text-xl lg:text-lg xl:text-xl">
                 Here are a few technologies I’ve been working with recently:

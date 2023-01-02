@@ -20,7 +20,7 @@ const MultiStageDockerBuild = () => {
             <p className="mt-4 sm:mt-6">
               Docker has revolutionized the way developers build, deploy, and run applications, by providing a
               lightweight and portable way to package applications and their dependencies into self-contained units
-              called "containers."
+              called &quot;containers.&quot;
             </p>
             <div className="mt-12 prose prose-slate">
               <h2>Docker builds</h2>

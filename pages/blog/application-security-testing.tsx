@@ -54,7 +54,7 @@ const ApplicationSecurityTesting = () => {
                 <b>Interactive application security testing (IAST)</b> is a type of testing that combines the
                 capabilities of
                 SAST and DAST, by analyzing both the source code and runtime behavior of an application to identify
-                potential vulnerabilities. IAST tools can provide a more comprehensive view of an application's security
+                potential vulnerabilities. IAST tools can provide a more comprehensive view of an application&apos;s security
                 posture, and can help developers identify issues that may not be detectable using SAST or DAST alone.
                 <br/>
                 <br/>

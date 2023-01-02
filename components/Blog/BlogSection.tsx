@@ -22,8 +22,8 @@ const BlogSection = () => {
           Blog
         </h1>
         <p className="mx-auto mt-5 max-w-prose text-xl text-center text-slate-200">
-          As a full-stack developer, I've learned about patterns and topics throughout my career. Check out a
-          couple of my latest articles to see what I've been writing. Visit <Link href="/blog"><code
+          As a full-stack developer, I&apos;ve learned about patterns and topics throughout my career. Check out a
+          couple of my latest articles to see what I&apos;ve been writing. Visit <Link href="/blog"><code
           className="text-cyan-500 underline">my blog</code></Link> for more
           insights and experiences in the world of development.
         </p>
