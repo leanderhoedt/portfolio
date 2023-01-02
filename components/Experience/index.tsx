@@ -57,17 +57,17 @@ const Experience = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="space-x-2">
+                  <ul className="flex flex-wrap">
                     {
                       ["JavaScript", "React", "NextJS", "Java", "Hibernate", "jOOQ", "Spring Boot", "PosgreSQL", "MongoDB"].map((technology) => {
                         return (
-                          <span key={technology} className="px-4 py-1 rounded-full bg-cyan-700 text-cyan-50 text-sm">
-                            {technology}
-                          </span>
+                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 text-sm">
+                            <span>{technology}</span>
+                          </li>
                         )
                       })
                     }
-                  </div>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -123,17 +123,17 @@ const Experience = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="space-x-2">
+                  <ul className="flex flex-wrap">
                     {
                       ["JavaScript", "React", "Redux", "React Native", "Java", "Hibernate", "Wildfly", "PosgreSQL", "MongoDB"].map((technology) => {
                         return (
-                          <span key={technology} className="px-4 py-1 rounded-full bg-cyan-700 text-cyan-50 text-sm">
-                            {technology}
-                          </span>
+                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 text-sm">
+                            <span>{technology}</span>
+                          </li>
                         )
                       })
                     }
-                  </div>
+                  </ul>
                 </div>
               </div>
             </div>
