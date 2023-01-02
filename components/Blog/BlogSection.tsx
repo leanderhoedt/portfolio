@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import Blog from './';
+import BlogPosts from './BlogPosts';
 import {blogItems} from './items';
 
-interface BlogItem {
+export interface BlogItem {
   id: string;
   title: string;
   description: string;
@@ -28,7 +28,7 @@ const BlogSection = () => {
           insights and experiences in the world of development.
         </p>
         <div className="mt-12">
-          <Blog
+          <BlogPosts
             items={blogItems.slice(0, 4) as BlogItem[]}
           />
         </div>

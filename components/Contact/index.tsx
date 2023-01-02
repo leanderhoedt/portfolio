@@ -23,8 +23,18 @@ const Contact = () => {
                 <span className="underline hover:text-cyan-400">leander.hoedt@gmail.com</span>
               </ClipboardCopyTooltip>
             </div>
-            <div><a href="https://www.linkedin.com/in/leander-hoedt-49506294/">LinkedIn</a></div>
-            <div><a href="https://github.com/leanderhoedt">Github</a></div>
+            <div>
+              <a href="https://www.linkedin.com/in/leander-hoedt-49506294/">
+                <span className="hover:text-cyan-400 hover:underline">
+                  LinkedIn
+                </span>
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/leanderhoedt">
+                <span className="hover:text-cyan-400 hover:underline">Github</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

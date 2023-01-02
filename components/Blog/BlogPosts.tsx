@@ -13,7 +13,7 @@ interface BlogProps {
   items: BlogItemProps[];
 }
 
-const Blog = ({items = []}: BlogProps) => {
+const BlogPosts = ({items = []}: BlogProps) => {
   return (
     <div className="grid gap-8 lg:grid-cols-2">
       {
@@ -29,4 +29,4 @@ const Blog = ({items = []}: BlogProps) => {
   )
 }
 
-export default Blog;
+export default BlogPosts;
