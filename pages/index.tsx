@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import About from '../components/About';
 import BlogSection from '../components/Blog/BlogSection';
-import Experience from "../components/Experience";
-import Contact from "../components/Contact";
+import Experience from '../components/Experience';
+import Contact from '../components/Contact';
 
 const Index = () => {
   return (
