@@ -5,11 +5,6 @@ import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 
 const Index = () => {
-
-  const goToTop = () => {
-
-  }
-
   return (
     <>
       <Head>
