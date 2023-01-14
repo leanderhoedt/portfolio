@@ -1,15 +1,10 @@
 import Head from 'next/head'
 import About from '../components/About';
 import BlogSection from '../components/Blog/BlogSection';
-import Experience from "../components/Experience";
-import Contact from "../components/Contact";
+import Experience from '../components/Experience';
+import Contact from '../components/Contact';
 
 const Index = () => {
-
-  const goToTop = () => {
-
-  }
-
   return (
     <>
       <Head>
@@ -25,11 +20,6 @@ const Index = () => {
         <Experience/>
         <Contact/>
       </main>
-      <button
-        id="to-top-button"
-        onClick={goToTop}
-        title="Go To Top"
-        className="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">&uarr;</button>
     </>
   )
 }
