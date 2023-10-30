@@ -1,4 +1,4 @@
-import {MapPinIcon, ArrowTopRightOnSquareIcon} from "@heroicons/react/24/outline";
+import {MapPinIcon, ArrowTopRightOnSquareIcon, LinkIcon} from "@heroicons/react/24/outline";
 
 const Experience = () => {
   return (
@@ -12,14 +12,76 @@ const Experience = () => {
           Professional Experience
         </h1>
         <div className="space-y-6">
-          <div className="space-y-2">
+
+          <div className="space-y-1">
             <h6>
               <div className="rounded bg-cyan-100 text-cyan-900 font-bold flex justify-between px-6 py-4">
                 <span>
-                  Senior Frontend Engineer @Ovinto
+                  Freelance Technical Designer · Cegeka
                 </span>
                 <span>
-                  2020 - Present
+                  April 2023 - Present
+                </span>
+              </div>
+            </h6>
+            <div className="rounded bg-cyan-50 text-cyan-900 px-6 py-4 font-normal">
+              <div className="flex flex-col space-y-4 py-2">
+                <span className="font-bold">
+                  Frontend Developer · National Crisis Center
+                </span>
+                <div className="space-x-4 flex">
+                
+                  <div className="flex space-x-2">
+                    <span>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
+                    </span>
+                    <span>Brussels, Belgium</span>
+                  </div>
+                  <div className="flex space-x-2">
+                    <span>
+                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
+                    </span>
+                    <span>
+                      <a href="https://crisiscenter.be"
+                         className="hover:text-cyan-900 hover:underline"
+                         target="_blank"
+                         rel="noreferrer"
+                      >
+                        crisiscenter.be
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div className="space-y-1">
+                  <div>
+                    Developing a national safety platform within which emergency services, governments and partners can prepare for an emergency and where they can exchange information during an emergency.
+                  </div>
+                </div>
+                <div>
+                  <ul className="flex flex-wrap">
+                    {
+                      ["TypeScript", "Angular", "Ngrx", "Jest", "PHP", "Laravel", "PosgreSQL", "Azure"].map((technology) => {
+                        return (
+                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 font-medium text-sm">
+                            <span>{technology}</span>
+                          </li>
+                        )
+                      })
+                    }
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-1">
+            <h6>
+              <div className="rounded bg-cyan-100 text-cyan-900 font-bold flex justify-between px-6 py-4">
+                <span>
+                  Senior Frontend Engineer · Ovinto
+                </span>
+                <span>
+                  December 2020 - April 2023
                 </span>
               </div>
             </h6>
@@ -28,13 +90,13 @@ const Experience = () => {
                 <div className="space-x-4 flex">
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-700"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
                     </span>
                     <span>Aalter, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <ArrowTopRightOnSquareIcon className="h-5 w-5 text-cyan-700"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
                     </span>
                     <span>
                       <a href="https://ovinto.com"
@@ -61,7 +123,7 @@ const Experience = () => {
                     {
                       ["JavaScript", "React", "NextJS", "Java", "Hibernate", "jOOQ", "Spring Boot", "PosgreSQL", "MongoDB"].map((technology) => {
                         return (
-                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 text-sm">
+                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 font-medium text-sm">
                             <span>{technology}</span>
                           </li>
                         )
@@ -72,14 +134,17 @@ const Experience = () => {
               </div>
             </div>
           </div>
-          <div className="space-y-2">
+
+          <div className="space-y-1">
             <h6>
               <div className="rounded bg-cyan-100 text-cyan-900 font-bold flex justify-between px-6 py-4">
+                <div>
+                  <span>
+                    Software Developer · Amaron
+                  </span>
+                </div>
                 <span>
-                  Software Developer @Amaron
-                </span>
-                <span>
-                  2015 - 2020
+                  Oktober 2014 - November 2020
                 </span>
               </div>
             </h6>
@@ -88,13 +153,13 @@ const Experience = () => {
                 <div className="space-x-4 flex">
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-700"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
                     </span>
                     <span>Ruiselede, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <ArrowTopRightOnSquareIcon className="h-5 w-5 text-cyan-700"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
                     </span>
                     <span>
                       <a href="https://amaron.be"
@@ -127,7 +192,7 @@ const Experience = () => {
                     {
                       ["JavaScript", "React", "Redux", "React Native", "Java", "Hibernate", "Wildfly", "PosgreSQL", "MongoDB"].map((technology) => {
                         return (
-                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 text-sm">
+                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 font-medium text-sm">
                             <span>{technology}</span>
                           </li>
                         )

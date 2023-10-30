@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import About from '../components/About';
 import BlogSection from '../components/Blog/BlogSection';
 import Experience from '../components/Experience';
