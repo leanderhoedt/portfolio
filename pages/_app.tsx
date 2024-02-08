@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type {AppProps} from 'next/app'
-import {Space_Grotesk} from '@next/font/google';
+import {Space_Grotesk} from "next/font/google";
 import {Analytics} from '@vercel/analytics/react';
 import Layout from '../components/Layout';
 import ScrollToTop from "../components/ScrollToTop";
