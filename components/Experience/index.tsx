@@ -1,4 +1,4 @@
-import {MapPinIcon, ArrowTopRightOnSquareIcon, LinkIcon} from "@heroicons/react/24/outline";
+import { MapPinIcon, ArrowTopRightOnSquareIcon, LinkIcon } from "@heroicons/react/24/outline";
 
 const Experience = () => {
   return (
@@ -17,10 +17,124 @@ const Experience = () => {
             <h6>
               <div className="rounded bg-cyan-100 text-cyan-900 font-bold flex justify-between px-6 py-4">
                 <span>
+                  Tech & Product · Ella
+                </span>
+                <span>
+                  May 2025 - Present
+                </span>
+              </div>
+            </h6>
+            <div className="rounded bg-cyan-50 text-cyan-900 px-6 py-4 font-normal">
+              <div className="flex flex-col space-y-4 py-2">
+                <div className="space-x-4 flex">
+                  <div className="flex space-x-2">
+                    <span>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
+                    </span>
+                    <span>Kortrijk, Belgium</span>
+                  </div>
+                  <div className="flex space-x-2">
+                    <span>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
+                    </span>
+                    <span>
+                      <a href="https://ella.energy"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        ella.energy
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div className="space-y-1">
+                  <div>
+                    Building the digital energy assistant for SMEs at Ella.
+                  </div>
+                </div>
+                <div>
+                  <ul className="flex flex-wrap">
+                    {
+                      ["Next.js", "React", "Python", "MySQL", "Google Vertex AI", "LLM", "Redis", "Azure"].map((technology) => {
+                        return (
+                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 font-medium text-sm">
+                            <span>{technology}</span>
+                          </li>
+                        )
+                      })
+                    }
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-1">
+            <h6>
+              <div className="rounded bg-cyan-100 text-cyan-900 font-bold flex justify-between px-6 py-4">
+                <span>
+                  Freelance Senior Frontend Developer · Nexuzhealth
+                </span>
+                <span>
+                  November 2024 - May 2025
+                </span>
+              </div>
+            </h6>
+            <div className="rounded bg-cyan-50 text-cyan-900 px-6 py-4 font-normal">
+              <div className="flex flex-col space-y-4 py-2">
+                <div className="space-x-4 flex">
+                  <div className="flex space-x-2">
+                    <span>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
+                    </span>
+                    <span>Leuven, Belgium</span>
+                  </div>
+                  <div className="flex space-x-2">
+                    <span>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
+                    </span>
+                    <span>
+                      <a href="https://nexuzhealth.com"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        nexuzhealth.com
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div className="space-y-1">
+                  <div>
+                    Working as Freelance Senior Frontend Developer on the new LIS platform that was being built at Nexuzhealth.
+                  </div>
+                </div>
+                <div>
+                  <ul className="flex flex-wrap">
+                    {
+                      ["TypeScript", "Angular", "Ngrx", "Jest", "Golang", "PostgreSQL", "Google Cloud Platform"].map((technology) => {
+                        return (
+                          <li key={technology} className="px-4 py-1 mb-2 mx-1 rounded-full bg-cyan-700 text-cyan-50 font-medium text-sm">
+                            <span>{technology}</span>
+                          </li>
+                        )
+                      })
+                    }
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-1">
+            <h6>
+              <div className="rounded bg-cyan-100 text-cyan-900 font-bold flex justify-between px-6 py-4">
+                <span>
                   Freelance Technical Designer · Cegeka
                 </span>
                 <span>
-                  April 2023 - Present
+                  April 2023 - October 2024
                 </span>
               </div>
             </h6>
@@ -30,22 +144,22 @@ const Experience = () => {
                   Frontend Developer · National Crisis Center
                 </span>
                 <div className="space-x-4 flex">
-                
+
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>Brussels, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>
                       <a href="https://crisiscenter.be"
-                         className="hover:text-cyan-900 hover:underline"
-                         target="_blank"
-                         rel="noreferrer"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         crisiscenter.be
                       </a>
@@ -90,19 +204,19 @@ const Experience = () => {
                 <div className="space-x-4 flex">
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>Aalter, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>
                       <a href="https://ovinto.com"
-                         className="hover:text-cyan-900 hover:underline"
-                         target="_blank"
-                         rel="noreferrer"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         ovinto.com
                       </a>
@@ -153,19 +267,19 @@ const Experience = () => {
                 <div className="space-x-4 flex">
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>Ruiselede, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>
                       <a href="https://amaron.be"
-                         className="hover:text-cyan-900 hover:underline"
-                         target="_blank"
-                         rel="noreferrer"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         amaron.be
                       </a>
