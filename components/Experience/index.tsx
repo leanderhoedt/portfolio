@@ -50,7 +50,7 @@ const Experience = () => {
                 </div>
                 <div className="space-y-1">
                   <div>
-                    Building the digital energy assistant for SMEs at Ella.
+                    As founding engineer, building the digital energy assistant for SMEs at Ella.
                   </div>
                 </div>
                 <div>
@@ -131,7 +131,7 @@ const Experience = () => {
             <h6>
               <div className="rounded bg-cyan-100 text-cyan-900 font-bold flex justify-between px-6 py-4">
                 <span>
-                  Freelance Technical Designer · Cegeka
+                  Freelance Senior Frontend Developer · Cegeka
                 </span>
                 <span>
                   April 2023 - October 2024
