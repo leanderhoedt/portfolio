@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {ArrowDownIcon, EnvelopeIcon} from "@heroicons/react/24/outline";
+import { ArrowDownIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Tooltip from "../Tooltip";
 import ClipboardCopyTooltip from "../ClipboardCopy";
@@ -64,6 +64,7 @@ const About = () => {
                 <li>GraphQL</li>
                 <li>NestJS</li>
                 <li>Java</li>
+                <li>Python</li>
                 <li>PostgreSQL</li>
                 <li>MongoDB</li>
                 <li>Jenkins</li>
@@ -77,7 +78,7 @@ const About = () => {
             </div>
             <p className="mt-10 font-medium text-gray-300 text-lg hover:text-gray-50 hidden lg:block">
               <Link href="/#blog" className="flex space-x-4">
-                <span>Scroll for more</span>{'  '}<ArrowDownIcon className="w-6 h-6"/></Link>
+                <span>Scroll for more</span>{'  '}<ArrowDownIcon className="w-6 h-6" /></Link>
             </p>
           </div>
           <div className="-mb-16 sm:-mb-48 lg:relative lg:m-0 sm:text-center lg:flex lg:items-center">
@@ -91,11 +92,11 @@ const About = () => {
               />
               <div className="mt-8 flex justify-center space-x-6">
                 {
-                  socials.map(({name, href, Icon}) => (
+                  socials.map(({ name, href, Icon }) => (
                     <a target="_blank" key={name} href={href} className="text-gray-200 hover:text-cyan-400"
-                       rel="noreferrer">
+                      rel="noreferrer">
                       <span className="sr-only">{name}</span>
-                      <Icon/>
+                      <Icon />
                     </a>
                   ))
                 }
