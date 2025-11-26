@@ -1,4 +1,4 @@
-import {MapPinIcon, ArrowTopRightOnSquareIcon, LinkIcon} from "@heroicons/react/24/outline";
+import { MapPinIcon, LinkIcon } from "@heroicons/react/24/outline";
 
 const Experience = () => {
   return (
@@ -30,22 +30,22 @@ const Experience = () => {
                   Frontend Developer · National Crisis Center
                 </span>
                 <div className="space-x-4 flex">
-                
+
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>Brussels, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>
                       <a href="https://crisiscenter.be"
-                         className="hover:text-cyan-900 hover:underline"
-                         target="_blank"
-                         rel="noreferrer"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         crisiscenter.be
                       </a>
@@ -90,19 +90,19 @@ const Experience = () => {
                 <div className="space-x-4 flex">
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>Aalter, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>
                       <a href="https://ovinto.com"
-                         className="hover:text-cyan-900 hover:underline"
-                         target="_blank"
-                         rel="noreferrer"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         ovinto.com
                       </a>
@@ -153,19 +153,19 @@ const Experience = () => {
                 <div className="space-x-4 flex">
                   <div className="flex space-x-2">
                     <span>
-                      <MapPinIcon className="h-5 w-5 text-cyan-800"/>
+                      <MapPinIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>Ruiselede, Belgium</span>
                   </div>
                   <div className="flex space-x-2">
                     <span>
-                      <LinkIcon className="h-5 w-5 text-cyan-800"/>
+                      <LinkIcon className="h-5 w-5 text-cyan-800" />
                     </span>
                     <span>
                       <a href="https://amaron.be"
-                         className="hover:text-cyan-900 hover:underline"
-                         target="_blank"
-                         rel="noreferrer"
+                        className="hover:text-cyan-900 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         amaron.be
                       </a>
