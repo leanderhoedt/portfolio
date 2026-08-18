@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { ArrowDownIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import Tooltip from "../Tooltip";
 import ClipboardCopyTooltip from "../ClipboardCopy";
 
 const socials = [

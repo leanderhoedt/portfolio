@@ -1,5 +1,4 @@
 import BlogCard from "./BlogCard";
-import {blogItems} from "./items";
 
 interface BlogItemProps {
   id: string;
